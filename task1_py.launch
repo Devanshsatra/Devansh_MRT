@@ -1,0 +1,14 @@
+<launch>
+  <node
+    pkg="task1"
+    type="webcam_publisher.py"
+    name="webcam_publisher"
+    output="screen"
+  />
+  <node
+    pkg="task1"
+    type="webcam_subscriber.py"
+    name="webcam_subscriber"
+    output="screen"
+  />
+</launch>
